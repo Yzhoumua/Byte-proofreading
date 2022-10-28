@@ -1,0 +1,234 @@
+.position {
+    position: relative;
+ }
+ 
+ header {
+    padding: 15px 100px 15px 100px;
+    top: 0;
+    background: #fff;
+ }
+ 
+ header .head .rg ul {
+    color: #646a73;
+    margin-top: 5px;
+    margin-right: 200px;
+ }
+ 
+ header .head .rg ul li {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 10px;
+    color: #646a73;
+ }
+ 
+ header .head .rg ul li a {
+    color: #646a73;
+    padding-bottom: 10px;
+ }
+ 
+ 
+ header .head  .rg ul li a.active {
+    font-weight: 600;
+    border-bottom: 2px solid #3370ff;
+    color: #3370ff;
+ }
+ 
+ footer {
+    max-width: 100%;
+    background-color: #1f2329;
+    padding:70px 0 70px 0;
+    min-width: 1320px;
+ }
+ 
+ footer .foot {
+    width: 1320px;
+ }
+ 
+ footer .foot1 {
+    padding-right: 80px;
+    box-sizing: border-box;
+ }
+ 
+ footer .foot1::after {
+    content: "";
+    height: 90px;
+    width: 1px;
+    background: #34373b;
+    position: absolute;
+    right: 0;
+    top: 0;
+ }
+ 
+ footer .foot1 p {
+    color: #7b7e81;
+    font-size: 14px;
+    margin-top: 10px;
+ }
+ 
+ footer .foot2 {
+    padding: 0 80px;
+    color: #7b7e81;
+    font-size: 14px;
+ }
+ 
+ footer .foot2 p:first-child {
+    margin-bottom: 30px;
+ }
+ 
+ footer .foot2 p>a {
+    color: #d2d3d4;
+    display: inline-block;
+    margin-bottom: 13px;
+    transition: 0.3s;
+ }
+ 
+ footer .foot2 p>a:hover {
+    color: #7b7e81;
+ }
+ 
+ footer .foot2::after {
+    content: "";
+    height: 90px;
+    width: 1px;
+    background: #34373b;
+    position: absolute;
+    right: 0;
+    top: 0;
+ }
+ 
+ footer .foot3 {
+    padding-left: 80px;
+ }
+ 
+ footer .foot3 p {
+    color: #7b7e81;
+    font-size: 14px;
+ }
+ 
+ footer .foot3 .foot3nav {
+    margin-top: 25px;
+ }
+ 
+ footer .foot3 .foot3nav .lf {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #7b7e81;
+    margin-right: 20px;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+ 
+ footer .foot3 .foot3nav .lf::after {
+    display: block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    background: #000;
+    opacity: 0;
+    transition: 0.3s;
+ }
+ 
+ footer .foot3 .foot3nav .lf::before {
+    top: -10px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 0;
+    opacity: 0;
+    margin: 0 auto;
+    border-left: 5px #fff solid;
+    border-top: 5px rgba(255, 255, 255, 0) solid;
+    border-bottom: 5px rgba(255, 255, 255, 0) solid;
+    border-right: 5px rgba(255, 255, 255, 0) solid;
+    content: "";
+    transform: rotate(90deg);
+ }
+ 
+ footer .foot3 .foot3nav .lf:hover::before {
+    opacity: 1;
+ }
+ 
+ footer .foot3 .foot3nav .lf:hover::after {
+    opacity: 0.5;
+ }
+ 
+ footer .foot3 .foot3nav .lf:nth-child(4) {
+    background-image: url(../../../images/lx4.png);
+ }
+ 
+ footer .foot3 .foot3nav .lf:nth-child(5) {
+   background-image: url(../../../images/lx3.png);
+ }
+ 
+ footer .foot3 .foot3nav .lf:nth-child(6) {
+   background-image: url(../../../images/lx2.png);
+ }
+ 
+ footer .foot3 .foot3nav .lf:nth-child(7) {
+   background-image: url(../../../images/lx1.png);
+ }
+ 
+ footer .foot3 .foot3nav .lf div {
+    width: 160px;
+    height: 170px;
+    border-radius: 10px;
+    position: absolute;
+    top: -180px;
+    left: -63px;
+    transition: 0.1s;
+    opacity: 0;
+    transform: scale(0.1)
+ }
+ 
+ footer .foot3 .foot3nav .lf:nth-child(1) div {
+    left: -138px;
+    width: 310px;
+ }
+ 
+ footer .foot3 .foot3nav .lf:nth-child(7) .zh {
+    background-image: url(../../../images/lx77.png);
+ }
+ 
+ footer .foot3 .foot3nav .lf:nth-child(6) .wb {
+    background-image: url(../../../images/lx66.png);
+ }
+ 
+ footer .foot3 .foot3nav .lf:nth-child(5) .xhs {
+    background-image: url(../../../images/lx55.png);
+ }
+ 
+ footer .foot3 .foot3nav .lf:nth-child(4) .bi {
+    background-image: url(../../../images/lx44.png);
+ }
+ 
+ footer .foot3 .foot3nav .lf:nth-child(3) .zj {
+    background-image: url(../../../images/lx33.png);
+ }
+ 
+ footer .foot3 .foot3nav .lf:nth-child(2) .dy {
+    background-image: url(../../../images/lx22.png);
+ }
+ 
+ footer .foot3 .foot3nav .lf:nth-child(1) .wx {
+    background-image: url(../../../images/lx11.png);
+ }
+ 
+ footer .foot3 .foot3nav .lf:hover div {
+    width: 160px;
+    height: 170px;
+    opacity: 1;
+    transform: scale(1)
+ }
+ 
+ footer .foot3 .foot3nav .lf:hover:nth-child(1) div {
+    width: 310px;
+    height: 170px;
+    opacity: 1;
+    transform: scale(1)
+ }

@@ -1,0 +1,368 @@
+header{
+    border-bottom: 1px solid #eff0f1;
+}
+
+
+.dlbox{
+    padding: 95px 0 60px 0;
+}
+.dl{
+    width: 650px;
+    margin: 0 auto;
+    height: 500px;
+    
+}
+.dl .dlcontbox .phonebox{
+    margin-right: 50px;
+}
+.dl .dlcontbox .active h2{
+    font-weight: bold;
+    color: #3370ff;
+    border-bottom: 3px solid #3370ff;
+}
+.dl .dlcontbox div{
+    height: 36px;
+}
+.dl div div.display{
+    display: none;
+}
+.dl h2{
+    color: #8f959e;
+    font-weight: normal;
+    font-size: 24px;
+    padding-bottom: 2px;
+    transition:0.3s ease-in-out;
+    width: max-content;
+}
+.dl .sjphone{
+    display: none;
+}
+.dl .emailbox{
+    display: none;
+}
+.dl .chuangjian{
+    display: none;
+}
+.dl .sjphone.active{
+    display: block;
+}
+.dl .chongzhi{
+    display: none;
+}
+.dl .chongzhi.active{
+    display: block;
+}
+.dl .emailbox.active{
+    display: block;
+}
+.dl .chuangjian.active{
+    display: block;
+}
+.dl .sjphone{
+    margin-top: 35px;
+}
+.dl .sjphone .phone .diqu{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid rgba(187, 191, 196, 0.5);
+    line-height: 40px;
+    padding-left: 20px;
+    box-sizing: border-box;
+     border-collapse: collapse;
+}
+.dl .sjphone .phone .diqu:hover{
+   border-color: rgb(51, 112, 255);
+}
+.dl .sjphone .phone .diqu.border{
+    border-right-color: rgb(51, 112, 255);
+}
+
+.dl .sjphone .phone .diqu svg{
+    position: absolute;
+    right:10px;
+    top: 12px;
+    transition: 0.3s;
+    transform: rotate(360deg);
+}
+.dl .sjphone .phone .diqu svg path{
+    fill: #8f959e;
+}
+.dl .sjphone .phone .diqu ul{
+    position: absolute;
+    width: 390px;
+    height: 0px;
+    overflow-y: scroll;
+    box-shadow: 0 8px 24px 0 rgb(187 191 196 / 84%);
+    left: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    display: none;
+    transition: 0.3s;
+    background: #fff;
+    top: 40px;
+}
+.dl .sjphone .phone .diqu ul.active{
+    display: block;
+}
+.dl .sjphone .phone .diqu ul p{
+    padding: 5px 0;
+    padding-left: 10px;
+    color: #8f959e;
+    border-bottom: 1px solid #8f959e56;
+}
+.dl .sjphone .phone .diqu ul li{
+    padding: 5px 0;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+.dl .sjphone .phone .diqu ul li:hover{
+    color:rgb(51, 112, 255);
+    background-color:rgba(51, 112, 255, 0.103) ;
+}
+.dl .sjphone .phone .phonema input{
+    width: 405px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(187, 191, 196, 0.5);
+    border-radius: 0 20px 20px 0;
+    border-left: none;
+    font-size: 16px;
+}
+.dl .sjphone .phone .phonema input:hover{
+    border-color: rgb(51, 112, 255);
+
+}
+
+.dl .sjphone .phone .phonema input:focus{
+    outline: none;
+}
+.dl .sjphone .phomeyzm input{
+    width: 405px;
+    height: 40px;
+    line-height: 40px;
+    padding-left:20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(187, 191, 196, 0.5);
+    border-radius: 20px 0 0 20px;
+    border-right: none;
+    font-size: 16px;
+}
+.dl .sjphone .phomeyzm{
+    margin-top: 35px;
+}
+.dl .sjphone .phomeyzm button{
+    width: 120px;
+    height: 40px;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid rgba(187, 191, 196, 0.5);
+    line-height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.3s;
+    font-size: 16px;
+    cursor: not-allowed;
+    color: #8f959e;
+}
+.dl .sjphone .phomeyzm input:focus,.dl .sjphone .phomeyzm button:focus{
+    outline: none;
+}
+.dl .sjphone .phonedl{
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.dl .sjphone .phonedl~p{
+    color: #8f959e;
+    font-size: 14px;
+}
+.dl .sjphone .phonedl button,.dl .emailbox .emaildl button,.dl .chuangjian .cjemailbox button,.dl .chongzhi .czemailbox button{
+    width: 525px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border:none;
+    background: #3370ff;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.dl .sjphone .phonedl button:hover,.dl .emailbox .emaildl button:hover,.dl .chuangjian .cjemailbox button:hover,.dl .chongzhi .czemailbox button:hover{
+    background: #3370ff59;
+}
+.dl .sjphone .phonedl button:focus,.dl .emailbox .emaildl button:focus,.dl .chuangjian .cjemailbox button:focus,.dl .chongzhi .czemailbox button:focus{
+    outline: none;
+}
+.dl .emailbox .inputemail {
+    margin-top: 35px;
+}
+.dl .emailbox .inputemail input:focus,.dl .emailbox .inputpas input:focus{
+    outline: none;
+}
+.dl .emailbox .inputemail input{
+    margin-bottom: 35px;
+}
+.dl .emailbox .inputemail input,.dl .emailbox .inputpas input{
+    width: 525px;
+    height: 40px;
+    border-radius: 20px;
+    border:1px solid rgba(187, 191, 196, 0.5);
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.dl .emailbox .inputemail input:hover,.dl .emailbox .inputpas input:hover{
+    border-color: #3370ff;
+}
+.dl .emailbox .inputpas svg{
+   width: 20px;
+   position: absolute;
+   top: -2px;
+   right:150px;
+   display: none;
+}
+.dl .emailbox .inputpas svg.active{
+    display: block;
+}
+.dl .emailbox .inputpas svg path{
+    fill: #8f959e;
+}
+.dl .emailbox .inputpas svg:hover path{
+    fill: #3370ff;
+}
+.dl .emailbox .wjpas{
+    width: 525px;
+    text-align: right;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.dl .emailbox .wjpas a{
+    color: #3370ff;
+    cursor: pointer;
+}
+.dl .emailbox .emaildl button{
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+.dl .emailbox .noneemail{
+    font-size: 14px;
+}
+.dl .emailbox .noneemail a{
+    color: #3370ff;
+    cursor: pointer;
+}
+.dl .chuangjian .cj svg{
+    width: 30px;
+    vertical-align: -15px;
+}
+.dl .chuangjian .cj svg:hover path{
+    fill: #3370ff;
+}
+.dl .chuangjian .cj span{
+    font-size: 24px;
+    padding-left: 20px;
+}
+.dl .chuangjian .inputemdz input{
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.dl .chuangjian .inputemdz input,.dl .chuangjian .inputemma input{
+    width: 525px;
+    height: 40px;
+    border-radius: 20px;
+    border:1px solid rgba(187, 191, 196, 0.5);
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.dl .chuangjian .inputemdz input:hover,.dl .chuangjian .inputemma input:hover{
+    border-color: #3370ff;
+}
+.dl .chuangjian .inputemdz input:focus,.dl .chuangjian .inputemma input:focus{
+   outline: none;
+}
+.dl .chuangjian .inputemma svg{
+   width: 20px;
+   position: absolute;
+   top: -2px;
+   right:150px;
+   display: none;
+}
+.dl .chuangjian .inputemma svg.active{
+    display: block;
+}
+.dl .chuangjian .inputemma svg path{
+    fill: #8f959e;
+}
+.dl .chuangjian .inputemma svg:hover path{
+    fill: #3370ff;
+}
+.dl .chuangjian .cjcont{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #8f959e;
+}
+.dl .chuangjian .cjemailbox{
+    margin-top: 35px;
+}
+
+.dl .chongzhi .cz svg{
+    width: 30px;
+    vertical-align: -15px;
+}
+.dl .chongzhi .cz svg:hover path{
+    fill: #3370ff;
+}
+.dl .chongzhi .cz span{
+    font-size: 24px;
+    padding-left: 20px;
+}
+.dl .chongzhi .inputemdz input{
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.dl .chongzhi .inputemdz input,.dl .chongzhi .inputemma input{
+    width: 525px;
+    height: 40px;
+    border-radius: 20px;
+    border:1px solid rgba(187, 191, 196, 0.5);
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.dl .chongzhi .inputemdz input:hover,.dl .chongzhi .inputemma input:hover{
+    border-color: #3370ff;
+}
+.dl .chongzhi .inputemdz input:focus,.dl .chongzhi .inputemma input:focus{
+   outline: none;
+}
+.dl .chongzhi .inputemma svg{
+   width: 20px;
+   position: absolute;
+   top: -2px;
+   right:150px;
+   display: none;
+}
+.dl .chongzhi .inputemma svg.active{
+    display: block;
+}
+.dl .chongzhi .inputemma svg path{
+    fill: #8f959e;
+}
+.dl .chongzhi .inputemma svg:hover path{
+    fill: #3370ff;
+}
+.dl .chongzhi .czcont{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #8f959e;
+}
+.dl .chongzhi .czemailbox{
+    margin-top: 35px;
+}

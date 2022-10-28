@@ -1,0 +1,131 @@
+.box{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 40px 0;
+  
+}
+body{
+    background: #f8f9fa;
+}
+.zwxinxi .zwxinxi1{
+    width: 930px;
+    box-sizing: border-box;
+    padding: 55px 45px;
+    box-shadow: 0 2px 10px rgb(54 97 174 / 10%);
+    border-radius: 8px;
+    background: #fff;
+}
+.zwxinxi .zwxinxi1 h2{
+    font-size: 30px;
+}
+.zwxinxi .zwxinxi1 .dizhi{
+    font-size: 14px;
+    color: rgb(100, 106, 115);
+    margin-top: 25px;
+}
+.zwxinxi .zwxinxi1 .dizhi span{
+    padding: 0 5px;
+}
+.zwxinxi .zwxinxi1 .dizhi span::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 10px;
+    background:rgb(100, 106, 115) ;
+    position: absolute;
+    right: -3px;
+    top: 5px;
+}
+.zwxinxi .zwxinxi1 .dizhi span:nth-child(1){
+    padding-left: 0;
+}
+.zwxinxi .zwxinxi1 .dizhi span:last-child::after{
+   background: rgba(100, 106, 115, 0);
+}
+.zwxinxi .zwxinxi2{
+    width: 410px;
+    box-sizing: border-box;
+    padding: 55px 45px;
+    box-shadow: 0 2px 10px rgb(54 97 174 / 10%);
+    border-radius: 8px;
+    background: #fff;
+}
+.zwxinxi .zwxinxi1 h3{
+    font-size: 21px;
+    margin-top: 60px;
+}
+.zwxinxi .zwxinxi1 .zwcont,.zwxinxi .zwxinxi1 .zwyaoqiu{
+    margin-top: 25px;
+}
+.zwxinxi .zwxinxi1 .zwcont p,.zwxinxi .zwxinxi1 .zwyaoqiu p{
+    font-size: 14px;
+    color: #646a73;
+    margin-bottom: 15px;
+}
+.zwxinxi .zwxinxi1 .toudi a{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #3370ff;
+    border-radius: 20px;
+    display: block;
+    font-size: 14px;
+    margin-top: 55px;
+}
+.zwxinxi .zwxinxi1 .toudi a:hover{
+    background: #82a7fc;
+}
+.zwxinxi .zwxinxi2 h2{
+    font-weight: normal;
+    font-size: 20px;
+}
+.zwxinxi .zwxinxi2 h2::after{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: #3370ff;
+    position: absolute;
+    left: -12px;
+    top: 4px;
+}
+.zwxinxi .zwxinxi2 .zhiweicont{
+    margin-top: 35px;
+    cursor: pointer;
+}
+.zwxinxi .zwxinxi2 .zhiweicont:hover h3{
+    color: #3370ff;
+}
+.zwxinxi .zwxinxi2 h3{
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+.zwxinxi .zwxinxi2 .zhiweicont .zhiweicont1{
+    margin-top: 15px;
+}
+.zwxinxi .zwxinxi2 .zhiweicont .zhiweicont1 span{
+    font-size: 14px;
+    color: rgb(100, 106, 115);
+}
+.zwxinxi .zwxinxi2 .zhiweicont .zhiweicont1 span{
+    padding: 0 5px;
+}
+.zwxinxi .zwxinxi2 .zhiweicont .zhiweicont1 span::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 10px;
+    background:rgb(100, 106, 115) ;
+    position: absolute;
+    right: -3px;
+    top: 5px;
+}
+.zwxinxi .zwxinxi2 .zhiweicont .zhiweicont1 span:nth-child(1){
+    padding-left: 0;
+}
+.zwxinxi .zwxinxi2 .zhiweicont .zhiweicont1 span:last-child::after{
+   background: rgba(100, 106, 115, 0);
+}

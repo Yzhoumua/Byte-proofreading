@@ -1,0 +1,337 @@
+.box{
+    width: 1210px;
+    margin: 0 auto;
+}
+.topvideo{
+    height: 416px;
+    overflow: hidden;
+}
+.topvideo .video{
+    position: absolute;
+    z-index: 1;
+}
+.topvideo .videowen{
+    width: 100%;
+    height: 416px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    z-index: 2;
+}
+.topvideo .videowen h1{
+    font-weight: 500;
+    margin-bottom: 12px;
+    font-size: 40px;
+    margin-top: 125px;
+}
+.topvideo .videowen h2{
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 53px;
+}
+.topvideo .videowen h3 svg{
+    width: 32px;
+    height: 32px;
+}
+.topvideo .videowen h3 span{
+    font-size: 16px;
+    padding-left: 20px;
+    vertical-align:10px;
+}
+
+.shbox1{
+    background: #fafafb;
+}
+.shbox2{
+    background:rgba(200,216,227,.2)
+}
+.shbox1 .bj1{
+    z-index: 0;
+    position: absolute;
+  
+}
+.shbox1 .bj11{
+    top: -33px;
+    left: -79px;
+    color: #e3ecf3;
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.shbox1 .bj12{
+    top:50px;
+    right: 0;
+    color: #f5e9d7;
+}
+.shbox .pd{
+    padding-top: 140px;
+}
+.shbox .pd .pdbox{
+    width: 465px;
+    padding-bottom:80px;
+}
+.shbox .pd .pdbox h2~p{
+    line-height: 28px;
+    color: #646a73;
+    font-size: 14px;
+}
+.shbox .pd .pdbox .pdtopbox{
+    letter-spacing: 6px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+.shbox .pd .pdbox .pdtopbox::before{
+    width: 32px;
+    height: 32px;
+    content: "";
+    border-radius: 50%;
+    display: block;
+    background: #e79a7b;
+    position: absolute;
+    left: -10px;
+    top: -5px;
+    z-index: -1;
+}
+.shbox .pd .pdbox h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #1f2329;
+    margin-bottom: 18px;
+}
+.shbox .pd .pdbox .pdboxcont h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    color: #1f2329;
+}
+.shbox .pd .pdbox .pdboxcont p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #646a73;
+    margin-top: 8px;
+}
+.shbox .pd .pdboximg{
+    width: 600px;
+    height: 526px;
+    opacity: 1;
+    border-radius: 50%;
+    transition:10s;
+    border-radius: 1361px 900px 1361px 1000px;
+    overflow: hidden;
+}
+.shbox .pd .pdboximg.active{
+    border-radius: 800px 1361px 1000px 1061px;
+   
+}
+
+.shbox .pd .pdboximg div{
+    width: 600px;
+    height: 526px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    transition: 1s;
+    opacity: 0;
+}
+.shbox .pd .pdboximg div.active{
+    opacity: 1;
+}
+.shbox .pd .word .lun1:nth-child(1){
+    background-image: url(../images/word1.jpg);
+}
+.shbox .pd .word .lun1:nth-child(2){
+    background-image: url(../images/word2.jpg);
+}
+.shbox .pd .word .lun2:nth-child(1){
+    background-image: url(../images/new1.jpg);
+}
+.shbox .pd .word .lun2:nth-child(2){
+    background-image: url(../images/new2.png);
+}
+.shbox .pd .word .lun3:nth-child(1){
+    background-image: url(../images/gh1.jpg);
+}
+.shbox .pd .word .lun3:nth-child(2){
+    background-image: url(../images/gh2.jpg);
+}
+.shbox .pd .word .lun4:nth-child(1){
+    background-image: url(../images/wh1.jpg);
+}
+.shbox .pd .word .lun4:nth-child(2){
+    background-image: url(../images/wh2.jpg);
+}
+.shbox .pd .word .lun5:nth-child(1){
+    background-image: url(../images/zy.jpg);
+}
+.shbox .pd .word .lun5:nth-child(2){
+    background-image: url(../images/zy1.jpg);
+}
+.shbox22{
+    top:70px;
+}
+.dier{
+    position: absolute;
+    top: -50px;
+    left:350px;
+    color: #e3ecf3;
+}
+.shbox .pd .pdbox .dierbox{
+    letter-spacing: 6px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+.shbox .pd .pdbox .dierbox::before{
+    width: 32px;
+    height: 32px;
+    content: "";
+    border-radius: 50%;
+    display: block;
+    background: #d3d5ef;
+    position: absolute;
+    left: -10px;
+    top: -5px;
+    z-index: -1;
+}
+.shbox .pd .pdbox .disanbox{
+    letter-spacing: 6px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+.shbox .pd .pdbox .disanbox::before{
+    width: 32px;
+    height: 32px;
+    content: "";
+    border-radius: 50%;
+    display: block;
+    background: #c396c1;
+    position: absolute;
+    left: -10px;
+    top: -5px;
+    z-index: -1;
+}
+.disan{
+    position: absolute;
+    color: #f5e9d7;
+    top: 518px;
+    left: -94px;   
+}
+.disi{
+    position: absolute;
+    color: #e3ecf3;
+    bottom:-57px;
+    right: 140px;   
+    z-index: 2;
+}
+.shbox .pd .pdbox .disibox{
+    letter-spacing: 6px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+.shbox .pd .pdbox .disibox::before{
+    width: 32px;
+    height: 32px;
+    content: "";
+    border-radius: 50%;
+    display: block;
+    background: #a8e6fd;
+    position: absolute;
+    left: -10px;
+    top: -5px;
+    z-index: -1;
+}
+.diwu{
+    position: absolute;
+    color: #f5e9d7;
+    bottom:-57px;
+    left:1086px;   
+   
+}
+.shbox .pd .pdbox .diwubox{
+    letter-spacing: 6px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+.shbox .pd .pdbox .diwubox::before{
+    width: 32px;
+    height: 32px;
+    content: "";
+    border-radius: 50%;
+    display: block;
+    background: #de9898;
+    position: absolute;
+    left: -10px;
+    top: -5px;
+    z-index: -1;
+}
+.goTop{
+    position: fixed;
+    z-index: 5;
+    transition: 0.1s;
+    width: 48px;
+    height: 200px;
+    right:50px;
+    bottom: 100px;
+    opacity: 0;
+}
+.goTop .goTopbiao{
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #fff    ;
+    box-shadow: 0 2px 10px 0 rgba(31, 35, 41, 0.1);
+
+}
+
+.goTop .goTopbiao svg{
+    padding-top: 13px;
+    color:#646a73 ;
+    font-size: 20px;
+    padding-left: 13px;
+}
+.goTop .goTopbiao .tishi{
+    position: absolute;
+    background: #000;
+    width: 80px;
+    height: 35px;
+    background-color: rgba(31, 35, 41, 0.8);
+    border-radius: 4px;
+    box-shadow: 0 6px 24px 0 rgba(31, 35, 41, 0.12);
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    left: -101px;
+    top: 7px;
+    opacity:0;
+    transition: 0.3s;
+}
+.goTop .goTopbiao:hover .tishi,.goTop .goTopbiao:hover .wxggh{
+    opacity: 1;
+}
+
+.goTop .goTopbiao .tishi::after{
+   content: "";
+   display: block;
+     position: absolute;
+     top: 12px;
+     right: -5px;
+   border-left: 5px solid rgba(31, 35, 41, 0.8);
+   border-top: 5px solid rgba(31, 35, 41, 0);
+   border-right: 5px solid rgba(31, 35, 41, 0);
+   border-bottom: 5px solid rgba(31, 35, 41, 0);
+}
+.goTop .goTopbiao:hover svg path{
+    fill: #3370ff;
+    stroke: #3370ff;
+}

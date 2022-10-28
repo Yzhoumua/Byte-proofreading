@@ -1,0 +1,23 @@
+{
+  "id": "3482046",
+  "name": "19 字节",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "407309",
+      "name": "勾勾",
+      "font_class": "gougou1",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "418320",
+      "name": "勾勾",
+      "font_class": "gougou",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    }
+  ]
+}

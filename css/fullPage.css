@@ -1,0 +1,44 @@
+#fixed{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: rgba(255, 255, 255);
+}
+body{
+    width: 100%;
+    height: 1500px;
+    
+}
+.contBj{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/fullpage/zjtdbj.png);
+    background-size: 100% 100%;
+}
+.contBj .contJs{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    bottom: 220px;
+    left: 130px;
+}
+.contBj .contJs .logo{
+            width: 80px;
+            height: 80px;
+            border-radius: 5px;
+            background-image: url(../images/fullpage/zjtplogo.png);
+            background-size: 100% 100%;
+}
+.contBj .contJs .textBt{
+    font-size: 28px;
+    margin-top: 30px
+}
+.contBj .contJs .logotext{
+    margin-top: 30px
+}
+.contBj .contJs .logotext p{
+    margin-top: 20px;
+    color: #1f2329;
+    font-size: 14px;
+}
